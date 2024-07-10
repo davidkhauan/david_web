@@ -5,15 +5,12 @@ let overlay = document.getElementById ('overlay-menu')
 btnMenu.addEventListener ('click', () => {
     menuMobile.classList.add ('abrir-menu')
 })
-
 menuMobile.addEventListener ('click', () => {
     menuMobile.classList.remove ('abrir-menu')
 })
-
 overlay.addEventListener ('click', () => {
     menuMobile.classList.remove ('abrir-menu')
 })
-
 window.onscroll = () => {
     funcaoScroll()
 }
